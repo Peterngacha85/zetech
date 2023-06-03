@@ -1774,5 +1774,17 @@ a.more{
 	border-radius: 50%;
 	z-index: 10;
   }
+  /* CSS code for small devices (e.g., phones) */
+
+@media (max-width: 767px) {
+  #main-flexslider {
+    width: 100%;
+    height: auto;
+  }
   
+  #main-flexslider .home-slide-content {
+    font-size: 14px;
+  }
+}
+
   
