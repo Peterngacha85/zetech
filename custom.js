@@ -177,34 +177,34 @@ function toggleContent(link) {
     }
 }
 	// whatsaap image 
-	var whatsappIcon = document.getElementById("whatsapp-icon");
+// 	var whatsappIcon = document.getElementById("whatsapp-icon");
 
-whatsappIcon.addEventListener("mousedown", function(event) {
-  var shiftX = event.clientX - whatsappIcon.getBoundingClientRect().left;
-  var shiftY = event.clientY - whatsappIcon.getBoundingClientRect().top;
+// whatsappIcon.addEventListener("mousedown", function(event) {
+//   var shiftX = event.clientX - whatsappIcon.getBoundingClientRect().left;
+//   var shiftY = event.clientY - whatsappIcon.getBoundingClientRect().top;
 
-  moveAt(event.pageX, event.pageY);
+//   moveAt(event.pageX, event.pageY);
 
-  function moveAt(pageX, pageY) {
-    whatsappIcon.style.left = pageX - shiftX + 'px';
-    whatsappIcon.style.top = pageY - shiftY + 'px';
-  }
+//   function moveAt(pageX, pageY) {
+//     whatsappIcon.style.left = pageX - shiftX + 'px';
+//     whatsappIcon.style.top = pageY - shiftY + 'px';
+//   }
 
-  function onMouseMove(event) {
-    moveAt(event.pageX, event.pageY);
-  }
+//   function onMouseMove(event) {
+//     moveAt(event.pageX, event.pageY);
+//   }
 
-  document.addEventListener("mousemove", onMouseMove);
+//   document.addEventListener("mousemove", onMouseMove);
 
-  whatsappIcon.onmouseup = function() {
-    document.removeEventListener("mousemove", onMouseMove);
-    whatsappIcon.onmouseup = null;
-  };
-});
+//   whatsappIcon.onmouseup = function() {
+//     document.removeEventListener("mousemove", onMouseMove);
+//     whatsappIcon.onmouseup = null;
+//   };
+// });
 
-whatsappIcon.ondragstart = function() {
-  return false;
-};
+// whatsappIcon.ondragstart = function() {
+//   return false;
+// };
 
 
 
