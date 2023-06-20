@@ -1756,35 +1756,28 @@ a.more{
 /* Small devices */
 @media (max-width: 767px) {
 	.whatsaap {
-	  width: 40px;
-	  height: 40px;
+	  width: 45px;
+	  height: 45px;
 	}
+	
+	
+	  #main-flexslider ul.slides li p {
+		font-size: 30px;
+	  }
   }
   
   /* Large devices */
   @media (min-width: 768px) {
 	.whatsaap {
-	  width: 60px;
-	  height: 60px;
+	  width: 45px;
+	  height: 45px;
 	}
   }
   .whatsaap {
-	position: absolute;
-	cursor: move;
+	/* position: absolute; */
+	cursor: pointer;
 	border-radius: 50%;
-	z-index: 10;
+	margin-bottom: 15px;
+	/* z-index: 10; */
   }
-  /* CSS code for small devices (e.g., phones) */
-
-@media (max-width: 767px) {
-  #main-flexslider {
-    width: 100%;
-    height: auto;
-  }
-  
-  #main-flexslider ul.slides li p {
-	font-size: 30px;
-	  }
-}
-
   
