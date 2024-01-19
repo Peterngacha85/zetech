@@ -1713,7 +1713,7 @@ i.icon-white {
 
 ul.social-networks li a:hover {
 	color: #fff; /* Default hover background color */
-	background: blue;
+	
   }
   
   ul.social-networks li a.icon-facebook:hover {
